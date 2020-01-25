@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Light.eot');
+    src: url('../fonts/Metropolis-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Light.woff2') format('woff2'),
+    url('../fonts/Metropolis-Light.woff') format('woff'),
+    url('../fonts/Metropolis-Light.ttf') format('truetype'),
+    url('../fonts/Metropolis-Light.svg#Metropolis-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Bold.eot');
+    src: url('../fonts/Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Bold.woff2') format('woff2'),
+    url('../fonts/Metropolis-Bold.woff') format('woff'),
+    url('../fonts/Metropolis-Bold.ttf') format('truetype'),
+    url('../fonts/Metropolis-Bold.svg#Metropolis-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ebebeb;
+    padding-bottom: 50px;
+}
+.main{
+    background-color: #ffffff;
+    width: 50%;
+    padding: 430px 30px 90px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.wrapper{
+    max-width: 1640px;
+    margin: auto;
+}
+p{
+    font-size: 24px;
+    font-family: Metropolis;
+}
+p span{
+    font-weight: bold;
+}
+p:first-of-type{
+    margin-bottom: 66px;
+}
+p:last-of-type{
+    margin-bottom: 370px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    float: left;
+    width: 24%;
+    padding-top: 10px;
+}
+.for_ul:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+li{
+    margin-bottom: 25px;
+}
+li:last-of-type{
+    margin-bottom: 0;
+}
+li:first-of-type{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 0;
+    color: white;
+}
+ul:first-of-type{
+    border-right: 3px solid #1f2c39;
+}
+ul:first-of-type li:first-of-type{
+    background-color: #1f2c39;
+    border-radius: 18px 0 0 18px;
+}
+ul:nth-child(2){
+    border-right: 3px solid #03246c;
+}
+ul:nth-child(2) li:first-of-type{
+    background-color: #03246c;
+}
+ul:nth-child(3){
+    border-right: 3px solid #028090;
+}
+ul:nth-child(3) li:first-of-type{
+    background-color: #028090;
+}
+ul:last-of-type{
+    border-right: 3px solid #28aeaf;
+}
+ul:last-of-type li:first-of-type{
+    background-color: #28aeaf;
+}
+ul li a{
+    font-size: 20px;
+    text-align: left;
+}
+ul li{
+    padding-left: 27px;
+}
+ul:first-of-type li a{
+     color: #1f2c39;
+}
+ul:nth-child(2) li a{
+    color: #03246c;
+}
+ul:nth-child(3) li a{
+    color: #028090;
+}
+ul:last-of-type li a{
+    color: #28aeaf;
+}
